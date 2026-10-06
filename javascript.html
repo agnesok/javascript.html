@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCIPT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body{
+            background-color: deeppink;
+           
+        }
+        .div1{
+        text-align: center;
+        color: white;
+        }
+        
+     
+    </style>
+</head>
+<body>
+    <div class="div1">
+    <h1 id="h1" class="container-fluid bg-success text-white p-4"></h1>
+    <p id="p1"></p>
+
+    <h1> 
+        Addition of numbers
+    </h1>
+    <p> Sum of numbers of <mark>two numbers</mark></p>
+    <p id="result"> </p>
+</div>
+
+
+
+    <script>
+        var num1=5;
+        var num2=7;
+        var sum= num1 + num2;
+        document.getElementById("result").innerHTML="The addition of both " +num1 + " and " +num2 + " is "  +sum;
+
+
+
+         document.getElementById("h1").innerHTML="My First Javascript" 
+         document.getElementById("p1").innerHTML="This is my Javascript webpage"
+</script>
+</body>
+</html>
